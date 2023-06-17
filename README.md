@@ -24,7 +24,7 @@ The project utilizes the following technologies and libraries:
 2. Axios: A popular HTTP client for making API requests.
 3. CSS: Cascading Style Sheets for styling the components and creating the layout.
 4. GitHub: Version control and code repository for managing the project's source code.
-5. GitHub Pages: A feature of GitHub that allows hosting the project and making it accessible online.
+5. netlify: A feature of netlify that allows hosting the project and making it accessible online.
 
 ## Getting Started
 
