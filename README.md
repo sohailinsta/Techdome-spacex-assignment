@@ -15,6 +15,7 @@ The project follows the following steps:
 2. Data Filtering: Users can filter the launches by selecting a specific launch year. The filtered data is updated in real-time, and the pagination is reset accordingly.
 3. Pagination: To enhance the user experience and improve performance, the launches are paginated, with a specified number of cards displayed per page.
 4. Responsive Design: The user interface is designed to be responsive and adapt to different screen sizes and devices using CSS media queries.
+5. jest: This project includes unit tests to verify the correctness of various components and functionalities. The tests are written using the Jest testing framework, which is widely used for testing JavaScript applications.
 
 ## Tech Stack
 
