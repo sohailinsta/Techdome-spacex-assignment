@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# SpaceX Launch Programs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web application that displays information about SpaceX launch programs. Users can filter the launches based on launch years and view details such as mission name, mission ID, launch year, launch success, and landing success.
 
-## Available Scripts
+## Project Approach
 
-In the project directory, you can run:
+The project was developed using a component-based approach with React, a popular JavaScript library for building user interfaces. The main components include:
 
-### `npm start`
+Dashboard: The main component that fetches and displays the SpaceX launch data, handles filtering based on launch years, and implements pagination.
+Card: A reusable component that represents a single launch card, displaying information about each launch.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The project follows the following steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Fetching Data: The project uses the Axios library to make HTTP requests to the SpaceX API and retrieve the launch data.
+Data Filtering: Users can filter the launches by selecting a specific launch year. The filtered data is updated in real-time, and the pagination is reset accordingly.
+Pagination: To enhance the user experience and improve performance, the launches are paginated, with a specified number of cards displayed per page.
+Responsive Design: The user interface is designed to be responsive and adapt to different screen sizes and devices using CSS media queries.
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project utilizes the following technologies and libraries:
 
-### `npm run build`
+React: A JavaScript library for building user interfaces.
+Axios: A popular HTTP client for making API requests.
+CSS: Cascading Style Sheets for styling the components and creating the layout.
+GitHub: Version control and code repository for managing the project's source code.
+GitHub Pages: A feature of GitHub that allows hosting the project and making it accessible online.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run the project locally, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone the repository: git clone https://github.com/your-username/spacex-launch-programs.git
+Navigate to the project directory: cd spacex-launch-programs
+Install dependencies: npm install
+Start the development server: npm start
+Open your browser and visit: http://localhost:3000
+The project should now be up and running on your local machine.
 
-### `npm run eject`
+## Developer
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project was developed by Sohail Khan, a professional MERN stack developer with expertise in building web applications. Sohail has a strong background in JavaScript, React, Node.js, and MongoDB, and has successfully delivered several projects in the field of web development.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+With a passion for creating intuitive and user-friendly interfaces, Sohail brings a meticulous approach to software development, ensuring clean and efficient code practices. By leveraging the power of the MERN stack (MongoDB, Express.js, React, and Node.js), Sohail is able to build scalable and robust applications.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Connect with Sohail Khan on:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: https://github.com/sohailinsta?tab=repositories
+LinkedIn: https://www.linkedin.com/in/sohail-khan-617a40166
