@@ -30,8 +30,8 @@ The project utilizes the following technologies and libraries:
 
 To run the project locally, follow these steps:
 
-1. Clone the repository: git clone https://github.com/your-username/spacex-launch-programs.git
-2. Navigate to the project directory: cd spacex-launch-programs
+1. Clone the repository: git clone https://github.com/sohailinsta/Techdome-spacex-assignment
+2. Navigate to the project directory: cd Techdome-spacex-assignment
 3. Install dependencies: npm install
 4. Start the development server: npm start
 5. Open your browser and visit: http://localhost:3000
