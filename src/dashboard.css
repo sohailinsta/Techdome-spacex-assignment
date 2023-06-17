@@ -1,0 +1,214 @@
+.container__title {
+    text-align: start;
+}
+
+.main__container {
+    margin-left: 2rem;
+}
+
+  .sidebar__title {
+    font-weight: bold;
+    margin-left: 4px;
+  }
+
+  .sidebar__launch-text {
+    font-size: small;
+    text-align: center;
+    border-bottom: 1px solid rgb(216, 210, 210);
+  }
+
+  .sidebar__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .sidebar__buttons button {
+    flex-basis: calc(50% - 30px); /* Calculate width with spacing */
+    margin: 5px;
+    font-size: 14px; /* Adjust font size as needed */
+    /* background-color: rgb(97, 228, 97); */
+    display: inline-block;
+  padding: 3px 0px;
+  /* font-size: 16px; */
+  /* font-weight: bold; */
+  text-align: center;
+  text-decoration: none;
+  background-color: #67bb68;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+
+  .sidebar__buttons button:hover {
+    background-color: #45a049;
+  }
+  
+  /* .main-menu {
+    grid-column: span 10; 
+  } */
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* one columns per row */
+    gap: 10px; /* Add some spacing between cards */
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .card__image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    background-color: rgb(236, 240, 240);
+  }
+  
+  .card__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .card__property {
+    margin-top: 5px;
+  }
+  
+  @media (min-width: 700px) and (max-width: 1024px) {
+    .card-container {
+      grid-template-columns: repeat(2, 1fr); /* Two columns within the specified range */
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .card-container {
+        grid-template-columns: repeat(4, 1fr); /* Four columns per row */ /* Two columns within the specified range */
+    }
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Default: Sidebar takes entire column */
+    gap: 10px; /* Add some spacing between the elements */
+  }
+  
+  .sidebar {
+    background-color: #fff;
+  }
+  
+  .main-menu {
+    background-color: #eaeaea;
+  }
+
+  @media (max-width: 699px) {
+    .pagination {
+      flex-wrap: wrap;
+      overflow: auto;
+      justify-content: flex-start;
+    }
+  
+    .pagination button {
+      flex: 0 0 calc(20% - 0.5rem);
+      max-width: calc(20% - 0.5rem);
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 700px) {
+    .container {
+      grid-template-columns: repeat(12, 1fr); /* 12 columns for the range 700px and above */
+    }
+    
+    .sidebar {
+      grid-column: span 4; /* Sidebar takes 4 columns */
+    }
+    
+    .main-menu {
+      grid-column: span 8; /* Main menu takes 8 columns */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .sidebar {
+      grid-column: span 2; /* Sidebar takes 2 columns */
+    }
+    
+    .main-menu {
+      grid-column: span 10; /* Main menu takes 10 columns */
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .container {
+      justify-content: center; /* Center align the content */
+      max-width: 1440px; /* Set the maximum width */
+      margin: 0 auto; /* Center horizontally */
+    }
+    .container__title {
+        text-align: center;
+    }
+    .sidebar {
+        grid-column: span 2; /* Sidebar takes 2 columns */
+      }
+      
+      .main-menu {
+        grid-column: span 10; /* Main menu takes 10 columns */
+      }
+      .card-container {
+        grid-template-columns: repeat(5, 1fr); /* Four columns per row */ /* Two columns within the specified range */
+    }
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .pagination button {
+    background-color: #eaeaea;
+    border: none;
+    color: #333;
+    padding: 8px 12px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination button.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .pagination button:hover {
+    background-color: #ccc;
+  }
+  
+  .no-launches {
+    padding: 10px;
+    text-align: center;
+    color: #888;
+    margin-top: 20px;
+  }
+  
+  .no-launch-image {
+    margin-bottom: 10px;
+  }
+
+  .no-launches-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .developer__name {
+    font-size: x-large;
+    text-align: center;
+  }
