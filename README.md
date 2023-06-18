@@ -38,6 +38,9 @@ To run the project locally, follow these steps:
 5. Open your browser and visit: http://localhost:3000
 The project should now be up and running on your local machine.
 
+To run the project test cases, follow these command:
+npm test
+
 ## Developer
 
 1. This project was developed by Sohail Khan, a professional MERN stack developer with expertise in building web applications. Sohail has a strong background in JavaScript, React, Node.js, and MongoDB, and has successfully delivered several projects in the field of web development.
